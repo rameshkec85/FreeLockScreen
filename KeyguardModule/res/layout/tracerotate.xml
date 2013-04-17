@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+    <FrameLayout android:id="@+id/unlock_normal_state"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_gravity="center"
+       >
+       <ImageView android:id="@+id/unlock_wave"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lockscreen_unlock_wave"/>    
+    </FrameLayout>
+    
+    <FrameLayout android:id="@+id/unlock_pressed_state"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:visibility="gone"
+        >
+        <ImageView android:id="@+id/unlock_role"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lockscreen_unlock_pressed_1"/>  
+        <ImageView android:id="@+id/unlock_lball"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lockscreen_unlock_pressed_2"/>  
+        <ImageView android:id="@+id/unlock_cball"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lockscreen_unlock_pressed_3"/>  
+        <ImageView android:id="@+id/unlock_rball"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lockscreen_unlock_pressed_4"/>  
+        <ImageView android:id="@+id/unlock_pressed_bg"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:background="@drawable/lockscreen_unlock_pressed_bg"/>  
+        
+    </FrameLayout>
+		<ImageView android:id="@+id/unlock_start"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:background="@drawable/lockscreen_unlock_start"/> 
+        
+        <ImageView android:id="@+id/lockscreen_unlock_icon"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:background="@drawable/lockscreen_unlock_icon"/> 
+</FrameLayout>

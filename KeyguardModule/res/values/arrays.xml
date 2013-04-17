@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lockscreen_targets_with_camera">
+        <item>@drawable/ic_lockscreen_unlock_normal</item>
+        <item>@drawable/ic_action_assist_generic_normal</item>
+        <item>@drawable/ic_lockscreen_camera_normal</item>
+        <item>@null</item>
+        
+    </array>
+
+    <array name="lockscreen_target_descriptions_with_camera">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_camera</item>
+        <item>@null</item>
+    </array>
+    
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+</resources>
